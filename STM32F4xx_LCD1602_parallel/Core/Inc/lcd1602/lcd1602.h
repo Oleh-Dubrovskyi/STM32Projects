@@ -71,6 +71,18 @@ extern GpioItem g_lcd1602_gpio_rs;
 // Enable signal pin
 extern GpioItem g_lcd1602_gpio_e;
 
+// Configure data bus and registers of the LCD1602
+void Lcd1602Configure(Lcd1602DataBusSize data_bus_size,
+		              GpioItem lcd1602_gpio_data_bus[],
+					  GpioItem enable_signal,
+					  GpioItem register_selection);
+
+// Configure data bus and registers of the LCD1602 for the 4-bits mode
+void Lcd1602Configure4Bits();
+
+// Configure data bus and registers of the LCD1602 for the 8-bits mode
+void Lcd1602Configure8Bits();
+
 // Initialize the Display
 void Lcd1602Initialize();
 

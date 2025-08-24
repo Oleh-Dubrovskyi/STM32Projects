@@ -5,7 +5,7 @@
  *      Author: Oleh Dubrovskyi
  */
 
-#include "lcd1602.h"
+#include "lcd1602/lcd1602.h"
 
 const uint8_t LCD1602_MAX_ROW = 1;
 const uint8_t LCD1602_MAX_COL = 15;
@@ -34,6 +34,78 @@ GpioItem g_lcd1602_gpio_data_bus[] =
         {NULL, 0},
         {NULL, 0}
     };
+
+// Configure data bus and registers of the LCD1602
+void Lcd1602Configure(Lcd1602DataBusSize data_bus_size,
+		              GpioItem lcd1602_gpio_data_bus[],
+					  GpioItem enable_signal,
+					  GpioItem register_selection)
+{
+	Lcd1602SetDataBusSize(data_bus_size);
+	Lcd1602ConfigureDataBus(lcd1602_gpio_data_bus);
+	Lcd1602ConfigureE(enable_signal);
+	Lcd1602ConfigureRS(register_selection);
+}
+
+// Configure data bus and registers of the LCD1602 for the 4-bits mode
+void Lcd1602Configure4Bits()
+{
+	  // Configure Data bus size
+	  Lcd1602DataBusSize data_bus_size = LCD1602_DATA_BUS_SIZE4;
+
+	  // Configure Data bus pins
+	  GpioItem lcd1602_gpio_data_bus[] =
+	  {
+	      {GPIOC, GPIO_PIN_7},  // D4
+	      {GPIOB, GPIO_PIN_6},  // D5
+	      {GPIOA, GPIO_PIN_7},  // D6
+	      {GPIOA, GPIO_PIN_6},  // D7
+	      {NULL, 0},
+	      {NULL, 0},
+	      {NULL, 0},
+	      {NULL, 0}
+	  };
+
+	  // Configure Enable signal pin
+	  GpioItem enable_signal = {GPIOB, GPIO_PIN_4};
+
+	  // Configure Register selection pin
+	  GpioItem register_selection = {GPIOB, GPIO_PIN_5};
+
+	  Lcd1602Configure(data_bus_size, lcd1602_gpio_data_bus, enable_signal, register_selection);
+
+	  Lcd1602Initialize();
+}
+
+// Configure data bus and registers of the LCD1602 for the 8-bits mode
+void Lcd1602Configure8Bits()
+{
+	  // Configure Data bus size
+	  Lcd1602DataBusSize data_bus_size = LCD1602_DATA_BUS_SIZE8;
+
+	  // Configure Data bus pins
+	  GpioItem lcd1602_gpio_data_bus[] =
+	  {
+          {GPIOA, GPIO_PIN_1},  // D0
+		  {GPIOA, GPIO_PIN_4},  // D1
+		  {GPIOB, GPIO_PIN_0},  // D2
+		  {GPIOC, GPIO_PIN_1},  // D3
+		  {GPIOC, GPIO_PIN_7},  // D4
+	      {GPIOB, GPIO_PIN_6},  // D5
+	      {GPIOA, GPIO_PIN_7},  // D6
+	      {GPIOA, GPIO_PIN_6}   // D7
+	  };
+
+	  // Configure Enable signal pin
+	  GpioItem enable_signal = {GPIOB, GPIO_PIN_4};
+
+	  // Configure Register selection pin
+	  GpioItem register_selection = {GPIOB, GPIO_PIN_5};
+
+	  Lcd1602Configure(data_bus_size, lcd1602_gpio_data_bus, enable_signal, register_selection);
+
+	  Lcd1602Initialize();
+}
 
 // Initialize the Display
 void Lcd1602Initialize()
