@@ -1,8 +1,19 @@
-/*
- * lcd1602_tests.h
- *
- *  Created on: Aug 24, 2025
- *      Author: Oleh
+/**
+  ************************************************************************************
+  * @file      : lcd1602_tests.h
+  * @author    : Oleh Dubrovskyi
+  * @brief     : Header for lcd1602_tests.c file.
+  ************************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2025 Oleh Dubrovskyi.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ************************************************************************************
  */
 
 #ifndef INC_LCD1602_TESTS_LCD1602_TESTS_H_

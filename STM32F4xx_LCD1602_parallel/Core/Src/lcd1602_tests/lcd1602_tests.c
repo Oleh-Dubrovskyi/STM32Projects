@@ -1,8 +1,19 @@
-/*
- * lcd1602_tests.c
- *
- *  Created on: Aug 24, 2025
- *      Author: Oleh
+/**
+  ***************************************************************************************
+  * @file      : lcd1602_tests.c
+  * @author    : Oleh Dubrovskyi
+  * @brief     : Implementation of the tests for the API functions defined in lcd1602.c
+  ***************************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2025 Oleh Dubrovskyi.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ***************************************************************************************
  */
 
 #include "lcd1602/lcd1602.h"

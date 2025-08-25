@@ -1,8 +1,20 @@
-/*
- * lcd1602.c
- *
- *  Created on: Aug 14, 2025
- *      Author: Oleh Dubrovskyi
+/**
+  ***************************************************************************************
+  * @file      : lcd1602.c
+  * @author    : Oleh Dubrovskyi
+  * @brief     : Implementation of API functions to manage the LCD1602 display associated
+  *            : with STM32F401RExx devices using 4-bit or 8-bit bus
+  ***************************************************************************************
+  * @attention
+  *
+  * Copyright (c) 2025 Oleh Dubrovskyi.
+  * All rights reserved.
+  *
+  * This software is licensed under terms that can be found in the LICENSE file
+  * in the root directory of this software component.
+  * If no LICENSE file comes with this software, it is provided AS-IS.
+  *
+  ***************************************************************************************
  */
 
 #include "lcd1602/lcd1602.h"
