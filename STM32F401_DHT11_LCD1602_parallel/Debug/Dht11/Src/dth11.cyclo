@@ -1,0 +1,8 @@
+../Dht11/Src/dth11.c:31:6:Dht11ConfigureDataLine	1
+../Dht11/Src/dth11.c:38:6:Dht11SendRequest	1
+../Dht11/Src/dth11.c:52:6:Dht11EnableGPIOXClock	5
+../Dht11/Src/dth11.c:73:6:Dht11SetDataLinePinInput	1
+../Dht11/Src/dth11.c:87:6:Dht11SetDataLinePinOutput	1
+../Dht11/Src/dth11.c:102:9:Dht11GetResponse	9
+../Dht11/Src/dth11.c:148:9:Dht11GetResponsedBytes	2
+../Dht11/Src/dth11.c:184:9:Dht11ReadByte	7
