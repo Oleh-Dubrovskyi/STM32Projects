@@ -1,6 +1,6 @@
 # DHT11 sensor and LCD1602 Display connected to STM32F4xx board
 
-This STM32 Project intended to create an API that would help:
+This STM32 Project is intended to create an API that would help:
 - to connect LCD1602 Display to the STM32F4xx board by means of 4-bit or 8-bit parallel data bus;
 - to connect DHT11 humidity and temperature sensor to the STM32F4xx board;
 - to perfor microsecond and millisecond delays by using ***System Core Clock*** and timer ***TIM2***.
@@ -110,7 +110,7 @@ Please, take a look at the ***STM32F401_DHT11_LCD1602_parallel.ioc*** and analyz
 <a id="usage_id"></a>
 ## Usage
 
-In case you perform [Installation](#installation_id) and [Configuration](#configuration_id) steps you can build and run this project on the NUCLEO-F401RE board.  
+After [Installation](#installation_id) and [Configuration](#configuration_id) steps you can build and run this project on the NUCLEO-F401RE board.  
 
 1. Connect your NUCLEO-F401RE board to your computer:
 

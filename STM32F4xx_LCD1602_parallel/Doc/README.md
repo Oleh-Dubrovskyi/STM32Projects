@@ -1,7 +1,7 @@
 # LCD1602 Display connected to STM32F4xx board using 4-bit or 8-bit data bus
 
-This project intended to create an API that would help to connect LCD1602 Display to the STM32F4xx board by means of 4-bit or 8-bit parallel data bus.  
-The project is based on the [***STM32 Cube Hardware Abstraction Layer (HAL) library***](/https://www.st.com/resource/en/user_manual/um1725-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics.pdf).  
+This STM32 Project is intended to create an API that would help to connect LCD1602 Display to the STM32F4xx board by means of 4-bit or 8-bit parallel data bus.  
+The project is based on the [***STM32 Cube Hardware Abstraction Layer (HAL) library***](https://www.st.com/resource/en/user_manual/um1725-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics.pdf).  
 The project includes a complete set of tests for the proposed API.  
 The tests demonstrate how to use LCD1602 Display features with proposed API.
 
@@ -101,15 +101,15 @@ Please, take a look at the connection diagram:
 
 ![LCD1602-F401RE connection diagram](./LCD1602-F401RE_connection_diagram.jpg)  
 
-Below is shown a NUCLEO-F401RE board's pins usage:  
+The NUCLEO-F401RE board's pins usage is shown below:  
 
 ![NUCLEO-F401RE_connections](./NUCLEO-F401RE_connections.jpg)  
 
-Here is a LCD1602's connections:  
+The LCD1602's connections are shown below:  
 
 ![LCD1602_connections](./LCD1602_connections.jpg)  
 
-Below is shown a general picture of connections between NUCLEO-F401RE and LCD1602:  
+A general picture of connections between NUCLEO-F401RE and LCD1602 is shown below:  
 
 ![LCD1602 and F401RE connections](./LCD1602-F401RE_connections.jpg)  
 
@@ -140,13 +140,13 @@ The cycle of testing consists of two steps. Each step suppose to call function <
 <a id="usage_id"></a>
 ## Usage
 
-In case you perform [Installation](#installation_id) and [Configuration](#configuration_id) steps you can build and run this project on the NUCLEO-F401RE board.  
+After [Installation](#installation_id) and [Configuration](#configuration_id) steps you can build and run this project on the NUCLEO-F401RE board.  
 
 1. Connect your NUCLEO-F401RE board to your computer:
 
 ![Connect NUCLEO-F401RE to your computer](./ConnectNUCLEO-F401RE_to_computer.jpg)
 
-2. Start STM32CubeIDE in the workspace which you prepared this project. Then click on ***hammer icon*** to build the project:
+2. Start STM32CubeIDE in the workspace where you have already prepared this project. Then click on ***hammer icon*** to build the project:
 
 ![Build the Project](./BuildProject.jpg)
 
