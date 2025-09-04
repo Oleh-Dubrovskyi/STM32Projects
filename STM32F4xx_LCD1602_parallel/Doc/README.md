@@ -13,7 +13,7 @@ The tests demonstrate how to use LCD1602 Display features with proposed API.
 - [Installation](#installation_id)
 - [Configuration](#configuration_id)
 
-    - [Hardare elements](#hardware_elements_id)
+    - [Hardware elements](#hardware_elements_id)
     - [Hardware connection](#hardware_connection_id)
     - [GPIO configuration](#gpio_configuration_id)
 
@@ -75,7 +75,7 @@ The project supports several functions. They are:
 ## Configuration
 
 <a id="hardware_elements_id"></a>
-### Hardare elements
+### Hardware elements
 
 The project ***STM32F4xx_LCD1602_parallel*** requires such hardware elements:
 
@@ -175,3 +175,4 @@ Here they are:
 
 - Email: duoleedu@gmail.com
 - GitHub: [Oleh-Dubrovskyi](https://github.com/Oleh-Dubrovskyi)
+
