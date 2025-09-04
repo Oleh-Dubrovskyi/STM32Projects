@@ -17,7 +17,7 @@ The project demonstrates how to use DHT11 humidity and temperature sensor and LC
 - [Installation](#installation_id)
 - [Configuration](#configuration_id)
 
-    - [Hardare elements](#hardware_elements_id)
+    - [Hardware elements](#hardware_elements_id)
     - [Hardware connection](#hardware_connection_id)
     - [GPIO configuration](#gpio_configuration_id)
 
@@ -61,7 +61,7 @@ The result application communicates with DHT11 sensor and shows current temperat
 ## Configuration
 
 <a id="hardware_elements_id"></a>
-### Hardare elements
+### Hardware elements
 
 The project ***STM32F401_DHT11_LCD1602_parallel*** requires such hardware elements:
 
@@ -148,3 +148,4 @@ While working on this project I used such links as below:
 
 - Email: duoleedu@gmail.com
 - GitHub: [Oleh-Dubrovskyi](https://github.com/Oleh-Dubrovskyi)
+
