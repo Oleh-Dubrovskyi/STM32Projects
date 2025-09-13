@@ -2,8 +2,12 @@
 
 This repository is intended to place several STM32 Projects I'm planning to create while working with ***NUCLEO-F401RE*** board.  
 The [***STM32CubeIDE***](https://www.st.com/en/development-tools/stm32cubeide.html) development tool and [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)  graphical configuration tool will be used.  
-- The first of such projects is [***STM32F4xx_LCD1602_parallel***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_parallel).
-- The second project is [***STM32F401_DHT11_LCD1602_parallel***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_parallel).
+
+- The first of such projects is [***STM32F4xx_LCD1602_parallel***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_parallel).  
+
+- The second project is [***STM32F401_DHT11_LCD1602_parallel***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_parallel).  
+
+- The third prproject is [***STM32F4xx_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_I2C).  
 
 ## Installation
 
