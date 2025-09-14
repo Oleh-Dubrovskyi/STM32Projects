@@ -7,7 +7,7 @@ The [***STM32CubeIDE***](https://www.st.com/en/development-tools/stm32cubeide.ht
 
 - The second project is [***STM32F401_DHT11_LCD1602_parallel***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_parallel).  
 
-- The third prproject is [***STM32F4xx_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_I2C).  
+- The third project is [***STM32F4xx_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_I2C).  
 
 ## Installation
 
