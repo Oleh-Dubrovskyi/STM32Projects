@@ -5,7 +5,7 @@ This STM32 Project is intended to create an API that would help:
 - to connect LCD1602 Display to the STM32F4xx board by means of 4-bit or 8-bit parallel data bus;
 - to connect LCD1602 Display to the STM32F4xx board by means of I2C expander based on IC PCF8574T.  
 
-The project is also used ***DelayMicro*** library proposed in the [***STM32F401_DHT11_LCD1602_parallel project***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_parallel).  
+The project uses ***DelayMicro*** library proposed in the [***STM32F401_DHT11_LCD1602_parallel project***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_parallel).  
 
 The project is based on the [***STM32 Cube Hardware Abstraction Layer (HAL) library***](https://www.st.com/resource/en/user_manual/um1725-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics.pdf).  
 

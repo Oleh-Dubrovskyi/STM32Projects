@@ -3,7 +3,7 @@
 This STM32 Project is intended to create an API that would help:
 - to connect LCD1602 Display to the STM32F4xx board by means of 4-bit or 8-bit parallel data bus;
 - to connect DHT11 humidity and temperature sensor to the STM32F4xx board;
-- to perfor microsecond and millisecond delays by using ***System Core Clock*** and timer ***TIM2***.
+- to perform microsecond and millisecond delays by using ***System Core Clock*** and timer ***TIM2***.
 
 The project is based on the [***STM32 Cube Hardware Abstraction Layer (HAL) library***](https://www.st.com/resource/en/user_manual/um1725-description-of-stm32f4-hal-and-lowlayer-drivers-stmicroelectronics.pdf).  
 
