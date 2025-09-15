@@ -1,19 +1,23 @@
 # STM32Projects
 
 This repository is intended to place several STM32 Projects I'm planning to create while working with ***NUCLEO-F401RE*** board.  
-The [***STM32CubeIDE***](https://www.st.com/en/development-tools/stm32cubeide.html) development tool and [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)  graphical configuration tool will be used.  
+The [***STM32CubeIDE***](https://www.st.com/en/development-tools/stm32cubeide.html) development tool and [STM32CubeMX](https://www.st.com/en/development-tools/stm32cubemx.html)  graphical configuration tool are used.  
 
-- The first of such projects is [***STM32F4xx_LCD1602_parallel***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_parallel).  
+There are several projects already added. They are:
 
-- The second project is [***STM32F401_DHT11_LCD1602_parallel***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_parallel).  
+- The project [***STM32F4xx_LCD1602_parallel***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_parallel).  
 
-- The third project is [***STM32F4xx_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_I2C).  
+- The project [***STM32F401_DHT11_LCD1602_parallel***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_parallel).  
+
+- The project [***STM32F4xx_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_I2C).  
+
+- The project [***STM32F401_DHT11_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_I2C).
 
 ## Installation
 
 1. You should [***install the STM32CubeIDE***](https://www.st.com/resource/en/user_manual/um2563-stm32cubeide-installation-guide-stmicroelectronics.pdf) in your computer.
 2. To clone a project from GitHub and import it into your STM32CubeIDE workspace, follow these steps:
-    - Clone the Repository Locally by means of Git client or by using <span style="color: blue;">`git clone`</span> command.
+    - Clone this repository by means of Git client or by using <span style="color: blue;">`git clone`</span> command.
     - Import STM32 Project (for example, ***STM32F4xx_LCD1602_parallel***) into STM32CubeIDE workspace
         - Open STM32CubeIDE and ensure you are in the desired workspace.
         - Navigate to *File* > *Import*: in the top menu bar.
@@ -30,7 +34,7 @@ The [***STM32CubeIDE***](https://www.st.com/en/development-tools/stm32cubeide.ht
 
 ## Configuration And Usage
 
-The detailed instructions concerning to configuration, build, and run the projects will be placed into <span style="color: blue;">`readme.md`</span> files for the respective projects.
+The detailed instructions concerning to configuration, build, and run the projects are placed into <span style="color: blue;">`readme.md`</span> files for the respective projects (see subdirectories ***Doc*** for that).
 
 ## License
 
