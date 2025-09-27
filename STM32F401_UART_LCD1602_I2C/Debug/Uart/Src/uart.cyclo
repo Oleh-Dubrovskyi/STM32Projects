@@ -1,0 +1,5 @@
+../Uart/Src/uart.c:30:16:IsLatinLetter	5
+../Uart/Src/uart.c:42:26:UartReceiveSymbol	1
+../Uart/Src/uart.c:48:19:UartReady	4
+../Uart/Src/uart.c:78:19:UartSendString	1
+../Uart/Src/uart.c:85:19:UartReceiveCommand	11

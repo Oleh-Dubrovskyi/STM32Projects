@@ -1,0 +1,8 @@
+../Commander/Src/commander.c:65:29:GetUartHandler	1
+../Commander/Src/commander.c:71:13:SetUartHandler	1
+../Commander/Src/commander.c:77:26:ShowHelp	4
+../Commander/Src/commander.c:105:19:ReadCommand	1
+../Commander/Src/commander.c:111:19:ProcessCommand	8
+../Commander/Src/commander.c:153:9:PrepareLCD1602Interface	1
+../Commander/Src/commander.c:159:19:PrepareUartChannel	6
+../Commander/Src/commander.c:206:6:RepairUartChannel	2

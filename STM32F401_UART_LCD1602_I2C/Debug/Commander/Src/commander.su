@@ -1,0 +1,8 @@
+../Commander/Src/commander.c:65:29:GetUartHandler	4	static
+../Commander/Src/commander.c:71:13:SetUartHandler	16	static
+../Commander/Src/commander.c:77:26:ShowHelp	648	static
+../Commander/Src/commander.c:105:19:ReadCommand	16	static
+../Commander/Src/commander.c:111:19:ProcessCommand	232	static
+../Commander/Src/commander.c:153:9:PrepareLCD1602Interface	8	static
+../Commander/Src/commander.c:159:19:PrepareUartChannel	24	static
+../Commander/Src/commander.c:206:6:RepairUartChannel	16	static
