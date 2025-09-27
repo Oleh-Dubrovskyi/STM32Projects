@@ -11,7 +11,9 @@ There are several projects already added. They are:
 
 - The project [***STM32F4xx_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F4xx_LCD1602_I2C).  
 
-- The project [***STM32F401_DHT11_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_I2C).
+- The project [***STM32F401_DHT11_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_LCD1602_I2C).  
+
+- The project [***STM32F401_UART_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_UART_LCD1602_I2C).
 
 ## Installation
 
