@@ -1,0 +1,5 @@
+../Hc_Sr04/Src/hc_sr04.c:27:6:HcSr04SetGpioTrigger	16	static
+../Hc_Sr04/Src/hc_sr04.c:34:6:HcSr04SetGpioEcho	16	static
+../Hc_Sr04/Src/hc_sr04.c:41:6:HcSr04SetTimHandlePointer	16	static
+../Hc_Sr04/Src/hc_sr04.c:47:6:HcSr04Triggert10usHighLevelSignal	8	static
+../Hc_Sr04/Src/hc_sr04.c:55:8:HcSr04ReadDistance	32	static
