@@ -5171,25 +5171,25 @@ LOAD C:/ST/STM32CubeIDE_1.19.0/STM32CubeIDE/plugins/com.st.stm32cube.ide.mcu.ext
  .debug_line    0x0000e6e3     0x194c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_line    0x0001002f      0xf1b ./Lcd1602_i2c/Src/lcd1602_i2c.o
 
-.debug_str      0x00000000    0x900ff
- .debug_str     0x00000000    0x900ff ./Core/Src/main.o
-                              0x8abaf (size before relaxing)
- .debug_str     0x000900ff    0x86a92 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_str     0x000900ff    0x86158 ./Core/Src/stm32f4xx_it.o
- .debug_str     0x000900ff     0x9a11 ./Core/Src/syscalls.o
- .debug_str     0x000900ff     0x77af ./Core/Src/sysmem.o
- .debug_str     0x000900ff    0x86294 ./Core/Src/system_stm32f4xx.o
- .debug_str     0x000900ff       0xb1 ./Core/Startup/startup_stm32f401retx.o
- .debug_str     0x000900ff    0x868ba ./DelayMicro/Src/delay_micro.o
- .debug_str     0x000900ff    0x89ce4 ./Dht11/Src/Dth11.o
- .debug_str     0x000900ff    0x86cb6 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_str     0x000900ff    0x86a20 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_str     0x000900ff    0x8640f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_str     0x000900ff    0x872a5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o
- .debug_str     0x000900ff    0x866c8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_str     0x000900ff    0x8760c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_str     0x000900ff    0x86e18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_str     0x000900ff    0x8a999 ./Lcd1602_i2c/Src/lcd1602_i2c.o
+.debug_str      0x00000000    0x90141
+ .debug_str     0x00000000    0x90141 ./Core/Src/main.o
+                              0x8ab84 (size before relaxing)
+ .debug_str     0x00090141    0x86a92 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_str     0x00090141    0x86158 ./Core/Src/stm32f4xx_it.o
+ .debug_str     0x00090141     0x9a11 ./Core/Src/syscalls.o
+ .debug_str     0x00090141     0x77af ./Core/Src/sysmem.o
+ .debug_str     0x00090141    0x86294 ./Core/Src/system_stm32f4xx.o
+ .debug_str     0x00090141       0xb1 ./Core/Startup/startup_stm32f401retx.o
+ .debug_str     0x00090141    0x868ba ./DelayMicro/Src/delay_micro.o
+ .debug_str     0x00090141    0x89cb9 ./Dht11/Src/Dth11.o
+ .debug_str     0x00090141    0x86cb6 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_str     0x00090141    0x86a20 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_str     0x00090141    0x8640f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_str     0x00090141    0x872a5 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o
+ .debug_str     0x00090141    0x866c8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_str     0x00090141    0x8760c ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_str     0x00090141    0x86e18 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_str     0x00090141    0x8a999 ./Lcd1602_i2c/Src/lcd1602_i2c.o
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 ./Core/Src/main.o

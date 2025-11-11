@@ -18,26 +18,9 @@
 
 #ifndef INC_DHT11_H
 #define INC_DHT11_H
-/*
-#define SYSTICK_LOAD (SystemCoreClock/1000000U)  // Number of System Core Clock ticks per microsecond: SYSTEM_CLOCK_TICKS_PER_US
-#define SYSTICK_DELAY_CALIB (SYSTICK_LOAD >> 1)  // Microsecond time measurement error is a half of the  System Core Clock ticks number per microsecond: TIME_MEASUREMENT_ERROR
-
-// MICROSECONDS_DELAY
-#define DELAY_US(us) \
-    do { \
-         uint32_t start = SysTick->VAL; \
-         uint32_t ticks = (us * SYSTICK_LOAD)-SYSTICK_DELAY_CALIB;  \
-         while((start - SysTick->VAL) < ticks); \
-    } while (0)
-*/
 
 #include <stdint.h>
 #include "stm32f4xx_hal.h"
-
-// Number of System Core Clock ticks per microsecond
-//extern uint32_t  g_system_clock_ticks_per_us;
-// Microsecond time measurement error is a half of the  System Core Clock ticks number per microsecond
-//extern uint32_t g_time_measurement_error_us;
 
 extern const float DHT11_SCALE;
 
