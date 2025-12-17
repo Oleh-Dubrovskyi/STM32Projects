@@ -17,6 +17,8 @@ There are several projects already added. They are:
 
 - The project [***STM32_F401_HC-SR04_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32_F401_HC-SR04_LCD1602_I2C).  
 
+- The project [***STM32F401_DHT11_DHT22_LCD1602_I2C***](https://github.com/Oleh-Dubrovskyi/STM32Projects/tree/master/STM32F401_DHT11_DHT22_LCD1602_I2C).
+
 ## Installation
 
 1. You should [***install the STM32CubeIDE***](https://www.st.com/resource/en/user_manual/um2563-stm32cubeide-installation-guide-stmicroelectronics.pdf) in your computer.
