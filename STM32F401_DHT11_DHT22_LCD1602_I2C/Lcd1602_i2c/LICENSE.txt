@@ -1,0 +1,4 @@
+This software component is provided to you as part of a software package.
+The terms of the FreeBSD License are applicable to this component.
+You may obtain a copy of the FreeBSD License at:
+https://opensource.org/licenses/BSD-2-Clause

@@ -1,0 +1,4 @@
+../DelayMicro/Src/delay_micro.c:24:6:SysTickMicrosecondsDelay	4
+../DelayMicro/Src/delay_micro.c:45:6:TIM2MicrosecondsDelayInit	1
+../DelayMicro/Src/delay_micro.c:63:6:TIM2MicrosecondsDelay	2
+../DelayMicro/Src/delay_micro.c:71:6:TIM2MillisecondsDelay	2

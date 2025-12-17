@@ -1,0 +1,12 @@
+../Dht/Src/Dht.c:66:6:DhtConfigureSensor	3
+../Dht/Src/Dht.c:89:11:DhtSensorGetStatus	1
+../Dht/Src/Dht.c:95:6:DhtSensorSetStatus	1
+../Dht/Src/Dht.c:101:6:DhtSendRequest	2
+../Dht/Src/Dht.c:122:6:DhtEnableGPIOXClock	5
+../Dht/Src/Dht.c:143:6:DhtConfigureDataLinePin	2
+../Dht/Src/Dht.c:168:9:DhtGetResponse	9
+../Dht/Src/Dht.c:216:9:DhtGetResponsedBytes	2
+../Dht/Src/Dht.c:253:9:DhtReadByte	7
+../Dht/Src/Dht.c:296:9:DhtSerializeData	3
+../Dht/Src/Dht.c:322:9:DhtGetSensorTypeString	3
+../Dht/Src/Dht.c:341:9:DhtSensorCheckReadiness	3

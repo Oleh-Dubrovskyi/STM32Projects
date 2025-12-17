@@ -1,0 +1,10 @@
+../Core/Src/main.c:72:6:ShowDHTData	80	static
+../Core/Src/main.c:87:6:ShowMessage	24	static
+../Core/Src/main.c:96:6:ShowUnsupportedSensor	56	static
+../Core/Src/main.c:105:9:SwitchSensorIndex	16	static
+../Core/Src/main.c:115:5:main	376	dynamic
+../Core/Src/main.c:320:6:SystemClock_Config	88	static
+../Core/Src/main.c:362:13:MX_I2C1_Init	8	static
+../Core/Src/main.c:396:13:MX_TIM2_Init	32	static
+../Core/Src/main.c:441:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:478:6:Error_Handler	4	static,ignoring_inline_asm
